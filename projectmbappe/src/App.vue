@@ -1,16 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Project mbappe"/>
+  <TheNavbar msg="Welcome to Project mbappe"/>
+  <TheDropdown/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TheNavbar from './components/TheNavbar.vue';
+import TheDropdown from './components/TheDropdown.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TheNavbar,
+    TheDropdown
+}
 }
 </script>
 
