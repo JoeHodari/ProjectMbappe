@@ -1,19 +1,22 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <TheNavbar msg="Welcome to Project mbappe"/>
-  <TheDropdown/>
+  <TheNavbar/>
+  <Picha/>
+  <TheFooter/>
 </template>
 
 <script>
 
 import TheNavbar from './components/TheNavbar.vue';
-import TheDropdown from './components/TheDropdown.vue';
+import TheFooter from './components/TheFooter.vue';
+import Picha from './components/Picha.vue';
+
 
 export default {
   name: 'App',
   components: {
     TheNavbar,
-    TheDropdown
+    TheFooter,
+    Picha
 }
 }
 </script>
