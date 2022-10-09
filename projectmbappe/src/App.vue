@@ -1,16 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Project mbappe"/>
+  <TheNavbar/>
+  <Picha/>
+  <TheFooter/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+
+import TheNavbar from './components/TheNavbar.vue';
+import TheFooter from './components/TheFooter.vue';
+import Picha from './components/Picha.vue';
+
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    TheNavbar,
+    TheFooter,
+    Picha
+}
 }
 </script>
 
